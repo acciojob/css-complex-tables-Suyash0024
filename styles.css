@@ -1,23 +1,27 @@
 /*  your css code here. If applicable */
 
 
-table{
-	border-width: 0px 0px 1px 1px;
-	border: 1px solid orange;
-	width: 100%;
-	border-collapse: collapse;
-}
-th, td{
-	border-width: 0px 0px 1px 1px;
-	border: 1px solid orange;
-	padding: 3px 5px;
-	text-align: center;
-}
- th {
-      background-color: #888888;
-      color: white;
-    }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
+    border-color: orange;
+  }
 
-    .sub-total-text {
-      text-align: right;
-    }
+  th, td {
+    border-width: 1px 1px 0px 0px;
+    border-style: solid;
+    border-color: orange;
+    padding: 3px 5px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #888888;
+    color: white;
+  }
+
+  .sub-total-text {
+    text-align: right;
+  }
