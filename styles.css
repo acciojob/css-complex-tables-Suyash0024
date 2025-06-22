@@ -13,3 +13,11 @@ th, td{
 	padding: 3px 5px;
 	text-align: center;
 }
+ th {
+      background-color: #888888;
+      color: white;
+    }
+
+    .sub-total-text {
+      text-align: right;
+    }
